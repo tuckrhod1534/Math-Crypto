@@ -33,7 +33,3 @@ def euler_phi(n: int) -> int:
     if n > 1:
         result -= result // n
     return result
-
-if __name__ == "__main__":
-    for i in range(1, 1000000):
-        print(f"euler_phi({i}) = {euler_phi(i)}")
